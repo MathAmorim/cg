@@ -181,7 +181,7 @@ void eventos_teclado(unsigned char _key, int _x, int _y){
                 matriz_modelview[14] = 0.0;
                 matriz_modelview[15] = 1.0;
             break;        
-		case 'q':
+	case 'q':
         case 'Q':
 			exit(0);
 			break;
